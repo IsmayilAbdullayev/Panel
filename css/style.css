@@ -1,0 +1,384 @@
+.left{
+    background-color: gray;
+    text-align: center;
+    height: 1250px;
+}
+
+.left .photo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 60px;
+}
+.left .name h4{
+    font-size: 15px;
+    display: inline-block;
+    margin-bottom: 20px;
+    color: white;
+}
+.left .name i{
+    color: white;
+}
+.left .border{
+    border-bottom: 1px solid;
+    color: black;
+}
+.left .menu{
+    text-align: left;
+    padding: 11px;
+     border-bottom: 1px solid;
+    color: black;
+}
+.left .menu .menu-list ul{
+    padding: 0px;
+    list-style-type: none;
+}
+.left .menu .menu-list ul li{
+    color: white;
+    margin: 10px 0px;
+    text-transform: uppercase;
+}
+.left .menu .menu-list ul a{
+    text-decoration: none;
+}
+.left .menu .menu-list ul a:hover li{
+    color: #333354;
+    transition: 0.7s;
+}
+.left .menu .menu-list ul li i{
+    margin-right: 8px;
+}
+
+/*!!!!!!!!!!! Right !!!!!!!!!!!*/
+.right .header ul{
+    padding: 0px;
+    list-style-type: none;
+    margin: 0px;
+}
+.right .header ul li{
+    display: inline-block;
+    padding: 15px;
+    border-right: 1px solid #ccc;
+
+}
+.right .header ul li i{
+    padding: 6px;
+}
+.right .header ul li input{
+    border: none;
+    outline: none;
+    padding: 3px 176px;
+    margin-right: 177px;
+}
+.right .header ul li:hover{
+    background-color: #0ee5ec;
+}
+.right .header{
+   border-bottom: 1px solid #ccc;
+}
+.right .services .title h3{
+    font-size: 25px;
+    margin-top: 30px;
+}
+.right .container .list-icon ul{
+    list-style-type: none;
+}
+.right .list-icon ul li{
+    display: inline-block;
+}
+.right .list-icon ul li a{
+    text-decoration: none;
+    border:1px solid #ccc;
+    padding: 6px 21px;
+    border-radius: 10px;
+    color: gray;
+}
+.right .list-icon ul li a:hover{
+    background-color: #0ee5ec;
+    transition: 0.8s;
+    color: white;   
+}
+.right .list-icon{
+    margin-top: 35px;
+
+}
+.right .services .city-name h5 span{
+    color:#0ee5ec;
+    margin-left: 10px;  
+}
+.right .service-list ul li{
+    display: inline-block;
+    font-size: 14px;
+    margin-right: 17px;
+    text-transform: uppercase;
+    
+}
+.right .service-list ul{
+     padding: 0px 30px;
+}
+.right .service-list ul li a{
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
+.right .service-list ul li a:hover{
+    color: black;
+     transition: 0.8s;
+}
+.canvasjs-chart-credit{
+    display: none;
+}
+.canvas-holder{
+    position: relative;
+    
+}
+.canvas-value{
+    position: absolute;
+    top: 75px;
+    left: 59px;
+    font-size: 16px;
+}
+.canvas-value h6{
+    font-size: 11px;
+    margin: -10px -8px;
+    font-weight: 600;
+}
+.canvas-value h5{
+    margin-left: 5px;
+}
+.chart-day a{
+    text-decoration: none;
+}
+.charts a:hover{
+    background-color: #0ee5ec;
+    transition: 0.8s;
+}
+.charts a{
+    margin-left: 100px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 60px;
+    text-decoration: none;
+}
+.size{
+    margin-bottom: 15px;
+} 
+#size{
+    margin-left: -16px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 60px;
+    text-decoration: none;
+}  
+.chart-day:hover a{
+    color: white;
+}
+.job{
+    margin-top: 15px;
+    margin-left: 20px;
+    border-top: 2px solid gray;
+    background-color: gray;
+    margin-bottom: 25px;
+}
+#color{
+    background-color: #efefef;
+    margin-top: 40px;
+}
+.description{
+    background-color: gray;
+    width: 100%;
+    display: flex;
+    padding: 15px;
+}
+.description .job-edit h5{
+    margin-left: 20px;
+    text-transform: uppercase;
+    padding: 5px 7px;
+    border: 1px solid #ccc;
+}
+.description .job-edit h5 i{
+    margin-right: 5px;
+}
+.description .job-description a h5{
+    margin-top: 17px;
+}
+.description h5{
+     text-transform: uppercase;
+     color: white;
+}
+.description a{
+    text-decoration: none;
+}
+.link{
+    display: grid;
+}
+.link a{
+    background-color: blue;
+    padding: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.link a span{
+    margin-right: 10px;
+}
+.link #second{
+    background-color: #0e9dec;
+    padding: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.link #first{
+    background-color: #088fb5;
+    padding: 14px;
+    color: white;
+    text-align: center;
+    margin-bottom: 10px;
+    text-decoration: none;  
+}
+.desc{
+    background-color: white;
+    padding: 20px;
+}
+.desc .title {
+    border-bottom: 2px solid #ccc;
+    padding: 16px 0px;
+}
+.desc .title h4{
+    margin-top: 10px;
+    display: inline-block;
+    margin-right: 50px;
+    text-transform: uppercase;
+    font-size: 12px;
+}
+.desc .title h5{
+    margin-top: 10px;
+    display: inline-block;
+}
+.desc .title img{
+    border-radius: 60px;
+}
+.work .job-title span{
+    display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.work .job-title h3{
+    display: inline-block;
+    font-size: 20px;
+}
+.work .work-input input{
+    padding: 6px 32px;
+    border: none;
+    margin-bottom: 30px;
+}
+.work .work-input span{
+    background-color: #04cbd2;
+    padding: 8px 14px;
+    color: white;  
+}
+.work .work-input{
+    border-bottom: 2px solid #ccc;
+}
+
+
+/*!!!!!!!!!! RESPONSIVLIK !!!!!!!!!!*/
+
+@media screen and (max-width:990px) {
+    .right .header ul li input{
+      border: none;
+      outline: none;
+      padding: 3px 128px;
+      margin-right: 48px;
+    }
+}
+@media screen and (max-width:749px) {
+    .right .header ul li input{
+      border: none;
+      outline: none;
+      padding: 3px 127px;
+      margin-right: 48px;
+    }
+}
+@media screen and (max-width:749px) {
+    .right .header ul li{
+      display: inline-block;
+      padding: 7px;
+      border-right: 1px solid #ccc;
+    }
+}
+@media screen and (max-width:1199px) {
+    .right .header ul li input{
+      border: none;
+      outline: none;
+      padding: 3px 92px;
+      margin-right: 177px;
+    }
+}
+@media screen and (max-width:991px) {
+    .right .header ul li input{
+      border: none;
+      outline: none;
+      padding: 3px 63px;
+      margin-right: 178px;
+    }
+}
+@media screen and (max-width:749px) {
+    .right .header ul li input{
+      border: none;
+      outline: none;
+      padding: 4px 101px;
+      margin-right: 181px;
+    }
+}
+@media screen and (max-width:655px) {
+    .right .header ul li input{
+    border: none;
+    outline: none;
+    padding: 4px 92px;
+    margin-right: 105px;
+    }
+}
+@media screen and (max-width:455px) {
+    .right .header ul li input{
+    border: none;
+    outline: none;
+    padding: 3px 35px;
+    margin-right: 16px; 
+    }
+}
+@media screen and (max-width:597px) {
+    .right .header ul li input{
+    border: none;
+    outline: none;
+    padding: 4px 69px;
+    margin-right: 91px; 
+    }
+}
+@media screen and (max-width:481px) {
+    .right .header ul li input{
+    border: none;
+    outline: none;
+    padding: 4px 48px;
+    margin-right: 18px;
+    }
+}
+@media screen and (max-width:1199px) {
+    .canvas-value{
+    position: absolute;
+    top: 75px;
+    left: 48px;
+    font-size: 16px;
+    }
+}
+@media screen and (max-width:1199px){
+    #size{
+    margin-left: -50px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 60px;
+    text-decoration: none;
+    }
+}
